@@ -39,4 +39,12 @@ Please refer to the below pop-up messages showing the elapsed run time for the r
 
 It is evident that refactoring the original code improved the code's efficiency. The refactored code analyzed 2018 stock data 0.3516 seconds faster than the original code. The refactored code analyzed 2017 stock data 0.2812 seconds faster than the original code. By simplifying the script and introducing multiple arrays to reduce the number of loops, the refactored code can analyze large amounts of stock data with less time. 
 
+## Summary
 
+### Advantages and Disadvantages of Refactoring Code
+
+Refactoring code can be very advantageous for analyzing large scripts of data. By simplifying the code without losing functionality, one can improve its efficiency because it takes less time for long scripts to run. In addition, by streamlining the code, its readability is improved, allowing users to scan through the code and understand the flow quickly. 
+
+However, there are potential downsides to refactoring code. There is potential in altering the functionality if the user removes too much or alters the code's flow. Refactoring may involve introducing new variables and iterators. If the user is not consistent with the new additions, the user can run into syntax errors that may be difficult to debug.
+
+These advantages applied when refactoring the original VBA script to analyze the stock data. The pop-up messages showing the elapsed run time indicate improved efficiency and shorter run-times associated with refactored code. In analyzing the original VBA script to analyze stock data, these disadvantages did not apply because both the original and refactored code results are the same. This finding means that the code's flow did not change after refactoring and that the functionality remained consistent.
