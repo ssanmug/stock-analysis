@@ -16,7 +16,11 @@ The yearly return is the percentage difference in closing price from the beginni
 
 Please see below for the original VBS script that calculates the total daily volumes and yearly returns for each stock, based on the user's input for which year the user wants to analyze.
 
+![Original_Code](Original_Code.png)
+
 Please see below for the refactored VBS script that calculates the total daily volumes and yearly returns for each stock, based on the user's input for which year the user wants to analyze.
+
+![Refactor_Code](Refactor_Code.png)
 
 Note that the formula structure to calculate the total daily volume and identify the starting/ending prices for the yearly return calculation remains the same between the original and refactored script. Please note the tickerIndex included in the refactored script allowing all three output arrays to access the stock tickers for analysis without looping through the entire spreadsheet for each stock ticker each time and wasting time. 
 
@@ -25,9 +29,13 @@ In 2017, all stocks but "DQ" and "HASI" exceeded 100,000,000 total shares traded
 
 Please refer to the below-attached data table presenting our analysis of the stocks' performance in 2017. 
 
+![All_Stocks_2017](All_Stocks_2017.png)
+
 In contrast to 2017, many stocks' performances declined the following year in 2018 in their yearly returns. All but "ENPH" and "RUN" experienced a net negative yearly return, with "DQ" experiencing the worst loss with a 62.6% decrease in price. That is quite shocking, as the previous year had a net increase of over 200%. These drastic differences suggest that investing in "DQ" would be a risky choice. 
 
 Please refer to the below-attached data table presenting our analysis of the stocks' performance in 2018.
+
+![All_Stocks_2018](All_Stocks_2018.png)
 
 After comparing the performances each year, our findings suggest that the best stock to invest in that could guarantee a high total daily volume and a positive yearly return is "ENPH". Over the two years of data we analyzed, it is clear that "ENPH" is consistently one of the most traded green energy stocks and increases their price, which is excellent news for a shareholder. 
 
@@ -35,7 +43,15 @@ After comparing the performances each year, our findings suggest that the best s
 
 Please refer to the below pop-up messages showing the elapsed run time for the original code.
 
+![Original_2018](Original_2018.png)
+
+![Original_2017](Original_2017.png)
+
 Please refer to the below pop-up messages showing the elapsed run time for the refactored code.
+
+![VBA_Challenge_2018](VBA_Challenge_2018.png)
+
+![VBA_Challenge_2017](VBA_Challenge_2017.png)
 
 It is evident that refactoring the original code improved the code's efficiency. The refactored code analyzed 2018 stock data 0.3516 seconds faster than the original code. The refactored code analyzed 2017 stock data 0.2812 seconds faster than the original code. By simplifying the script and introducing multiple arrays to reduce the number of loops, the refactored code can analyze large amounts of stock data with less time. 
 
